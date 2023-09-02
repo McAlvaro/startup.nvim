@@ -6,7 +6,7 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Header",
-        margin = 5,
+        margin = -10,
         content = {
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
             "⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀",
@@ -31,7 +31,7 @@ local settings = {
     -- name which will be displayed and command
     body = {
         type = "mapping",
-        oldfiles_directory = false,
+        oldfiles_directory = true,
         align = "center",
         fold_section = false,
         title = "Basic Commands",
