@@ -56,7 +56,7 @@ local settings = {
         title = "Footer",
         margin = 5,
         content = { "by Mc Alvaro" },
-        highlight = "String",
+        highlight = "Number",
         default_color = "",
         oldfiles_amount = 0,
     },
