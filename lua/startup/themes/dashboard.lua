@@ -6,7 +6,7 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Header",
-        margin = 10,
+        margin = 5,
         content = {
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
             "⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀",
@@ -35,7 +35,7 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Basic Commands",
-        margin = 10,
+        margin = 5,
         content = {
             { " Empty Buffer", "tab new", "<leader>e" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
@@ -56,8 +56,8 @@ local settings = {
         title = "Footer",
         margin = 5,
         content = { "by Mc Alvaro" },
-        highlight = "Function",
-        default_color = "",
+        highlight = "",
+        default_color = "#06989a",
         oldfiles_amount = 0,
     },
 
