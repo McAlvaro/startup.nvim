@@ -44,8 +44,8 @@ local settings = {
             { " File Browser", "Telescope file_browser", "<leader>fb" },
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
         },
-        highlight = "",
-        default_color = "#79b8ff",
+        highlight = "String",
+        default_color = "",
         oldfiles_amount = 0,
     },
     footer = {
@@ -56,8 +56,8 @@ local settings = {
         title = "Footer",
         margin = 5,
         content = { "Mc Alvaro" },
-        highlight = "",
-        default_color = "#79b8ff",
+        highlight = "Number",
+        default_color = "",
         oldfiles_amount = 0,
     },
 
