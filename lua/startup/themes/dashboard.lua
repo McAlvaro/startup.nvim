@@ -6,7 +6,7 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Header",
-        margin = -10,
+        margin = 10,
         content = {
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
             "⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀",
@@ -31,11 +31,11 @@ local settings = {
     -- name which will be displayed and command
     body = {
         type = "mapping",
-        oldfiles_directory = true,
+        oldfiles_directory = false,
         align = "center",
         fold_section = false,
         title = "Basic Commands",
-        margin = 5,
+        margin = 10,
         content = {
             { " Empty Buffer", "tab new", "<leader>e" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
@@ -46,7 +46,7 @@ local settings = {
         },
         highlight = "Function",
         default_color = "",
-        oldfiles_amount = 5,
+        oldfiles_amount = 0,
     },
     footer = {
         type = "text",
