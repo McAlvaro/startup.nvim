@@ -56,7 +56,7 @@ local settings = {
         title = "Footer",
         margin = 5,
         content = { "by Mc Alvaro" },
-        highlight = "Number",
+        highlight = "Function",
         default_color = "",
         oldfiles_amount = 0,
     },
@@ -66,7 +66,7 @@ local settings = {
         cursor_column = 0.5,
         empty_lines_between_mappings = true,
         disable_statuslines = true,
-        paddings = { 1, 3, 3, 0 },
+        paddings = { 1, 3, 8, 0 },
     },
     mappings = {
         execute_command = "<CR>",
