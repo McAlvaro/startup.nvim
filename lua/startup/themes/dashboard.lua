@@ -25,7 +25,7 @@ local settings = {
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
         },
         highlight = "Statement",
-        default_color = "#79b8ff",
+        default_color = "",
         oldfiles_amount = 0,
     },
     -- name which will be displayed and command
@@ -43,10 +43,9 @@ local settings = {
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
             { " File Browser", "Telescope file_browser", "<leader>fb" },
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
-            { "X Quit", "Telescope colorscheme", "q" },
         },
         highlight = "String",
-        default_color = "#79b8ff",
+        default_color = "",
         oldfiles_amount = 0,
     },
     footer = {
@@ -58,7 +57,7 @@ local settings = {
         margin = 5,
         content = { "Mc Alvaro" },
         highlight = "Number",
-        default_color = "#79b8ff",
+        default_color = "",
         oldfiles_amount = 0,
     },
 
@@ -78,7 +77,7 @@ local settings = {
     },
     colors = {
         background = "#1f2227",
-        folded_section = "#56b6c2",
+        folded_section = "#79b8ff",
     },
     parts = { "header", "body", "footer" },
 }
