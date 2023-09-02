@@ -25,7 +25,7 @@ local settings = {
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
         },
         highlight = "Statement",
-        default_color = "#79b8ff",
+        default_color = "",
         oldfiles_amount = 0,
     },
     -- name which will be displayed and command
@@ -45,7 +45,7 @@ local settings = {
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
         },
         highlight = "String",
-        default_color = "#79b8ff",
+        default_color = "",
         oldfiles_amount = 0,
     },
     footer = {
@@ -57,7 +57,7 @@ local settings = {
         margin = 5,
         content = { "Mc Alvaro" },
         highlight = "Number",
-        default_color = "#79b8ff",
+        default_color = "",
         oldfiles_amount = 0,
     },
 
