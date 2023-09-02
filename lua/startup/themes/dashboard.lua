@@ -56,8 +56,8 @@ local settings = {
         title = "Footer",
         margin = 5,
         content = { "by Mc Alvaro" },
-        highlight = "",
-        default_color = "#06989a",
+        highlight = "Function",
+        default_color = "",
         oldfiles_amount = 0,
     },
 
