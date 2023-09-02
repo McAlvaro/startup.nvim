@@ -6,7 +6,7 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Header",
-        margin = 5,
+        margin = 1,
         content = {
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
             "⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀",
@@ -24,7 +24,7 @@ local settings = {
             "⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠁⠀⠀⠀⠀⠀⠀",
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
         },
-        highlight = "Operator",
+        highlight = "Array",
         default_color = "",
         oldfiles_amount = 0,
     },
@@ -35,7 +35,7 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Basic Commands",
-        margin = 5,
+        margin = 1,
         content = {
             { " Empty Buffer", "tab new", "e" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
@@ -54,9 +54,9 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Footer",
-        margin = 5,
+        margin = 1,
         content = { "Mc Alvaro" },
-        highlight = "Number",
+        highlight = "Array",
         default_color = "",
         oldfiles_amount = 0,
     },
