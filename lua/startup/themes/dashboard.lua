@@ -24,7 +24,7 @@ local settings = {
             "⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠁⠀⠀⠀⠀⠀⠀",
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
         },
-        highlight = "Character",
+        highlight = "Operator",
         default_color = "",
         oldfiles_amount = 0,
     },
@@ -44,7 +44,7 @@ local settings = {
             { " File Browser", "Telescope file_browser", "<leader>fb" },
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
         },
-        highlight = "String",
+        highlight = "Array",
         default_color = "",
         oldfiles_amount = 0,
     },
