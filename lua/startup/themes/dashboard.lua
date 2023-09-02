@@ -25,7 +25,7 @@ local settings = {
             "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
         },
         highlight = "Statement",
-        default_color = "",
+        default_color = "#79b8ff",
         oldfiles_amount = 0,
     },
     -- name which will be displayed and command
@@ -37,15 +37,15 @@ local settings = {
         title = "Basic Commands",
         margin = 5,
         content = {
-            { " Find File", "Telescope find_files", "<leader>ff" },
+            { " New File", "tab new", "e" },
+            { " New File", "lua require'startup'.new_file()", "<leader>nf" }
             { " Find Word", "Telescope live_grep", "<leader>lg" },
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
             { " File Browser", "Telescope file_browser", "<leader>fb" },
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
-            { " New File", "lua require'startup'.new_file()", "<leader>nf" },
         },
         highlight = "String",
-        default_color = "",
+        default_color = "#79b8ff",
         oldfiles_amount = 0,
     },
     footer = {
@@ -55,9 +55,9 @@ local settings = {
         fold_section = false,
         title = "Footer",
         margin = 5,
-        content = { "startup.nvim" },
+        content = { "Mc Alvaro" },
         highlight = "Number",
-        default_color = "",
+        default_color = "#79b8ff",
         oldfiles_amount = 0,
     },
 
