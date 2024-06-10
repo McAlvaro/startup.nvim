@@ -43,6 +43,7 @@ local settings = {
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
             { " File Browser", "Telescope file_browser", "<leader>fb" },
             { " Colorschemes", "Telescope colorscheme", "<leader>sh" },
+            { " Obsidian", "Telescope workspaces", "<leader>oo" },
         },
         highlight = "Function",
         default_color = "",
